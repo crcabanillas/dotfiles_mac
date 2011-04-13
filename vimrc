@@ -1,0 +1,2 @@
+set nocp
+syn on
