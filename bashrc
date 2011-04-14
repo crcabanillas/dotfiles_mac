@@ -19,7 +19,7 @@ DISPLAY="0:0";
 export DISPLAY
 
 #make directory colors brighter
-LS_COLORS='di=01;33'; export LS_COLORS
+#LS_COLORS='di=01;33'; export LS_COLORS
 
 # enable colors for ls
 alias ls='ls -G'
@@ -35,3 +35,6 @@ export NNTPSERVER
 alias slrn='screen slrn'
 alias irssi='screen irssi'
 alias vi='screen vim'
+
+#Colorize the Terminal
+export CLICOLOR=1;
