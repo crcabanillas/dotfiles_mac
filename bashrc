@@ -1,4 +1,4 @@
-export PATH="$PATH:/Library/MySql/bin:/usr/local/bin:/Applications:/Users/restiffbard/bin:"
+export PATH="$PATH:/Library/MySql/bin:/usr/local/bin:/Applications:/Users/chris/bin:"
 
 # Prompt
 COLOR1="\[\033[0;36m\]"
@@ -32,9 +32,9 @@ NNTPSERVER='news.east.cox.net'
 export NNTPSERVER
 
 # aliases to make color work properly in terminal.app
-alias slrn='screen slrn'
-alias irssi='screen irssi'
-alias vi='screen vim'
+#alias slrn='screen slrn'
+#alias irssi='screen irssi'
+#alias vi='screen vim'
 
 #Colorize the Terminal
 export CLICOLOR=1;
