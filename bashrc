@@ -31,10 +31,8 @@ alias startx="/Applications/X11.app/Contents/MacOS/X11"
 NNTPSERVER='news.east.cox.net'
 export NNTPSERVER
 
-# aliases to make color work properly in terminal.app
-#alias slrn='screen slrn'
-#alias irssi='screen irssi'
-#alias vi='screen vim'
-
 #Colorize the Terminal
 export CLICOLOR=1;
+
+# set the editor
+export EDITOR="mvim"

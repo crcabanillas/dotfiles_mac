@@ -1,6 +1,6 @@
 set nocompatible                  " Must be first
 
-" enable pathogen plugin management
+" enable pathogen plug-in management
 silent! call pathogen#runtime_append_all_bundles()
 
 syntax enable                     " Turn on syntax highlighting
@@ -11,14 +11,11 @@ set hidden                        " Handle multiple buffers better.
 set ignorecase                    " Case-insensitive searching.
 set smartcase                     " But case-sensitive if expression contains a capital letter.
 
-
 set ruler                         " shows the ruler position
 set number                        " line numbering
 
 set wildmenu                      " Enhanced command line completion.
 set wildmode=list:longest         " Complete files like a shell.
-
-set ignorecase                    " Case-insensitive searching.
 
 " toggle invisibles with \l
 nmap <leader>l :set list!<CR>
@@ -36,3 +33,12 @@ nmap <leader>w :set wrap!<CR>
 colorscheme solarized
 " set F5 to toggle between light and dark backgrounds
 call togglebg#map("<F5>")
+
+" toggle spell check
+nmap <leader>s :set spell!<CR>
+
+" define function to refresh Jekyll and map to \r
+function g:jekyllRefresh()
+  call system("jekyll")
+endfunction
+nnoremap <leader>r :call g:jekyllRefresh()<CR>
