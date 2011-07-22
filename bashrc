@@ -1,4 +1,4 @@
-export PATH="$PATH:/Library/MySql/bin:/usr/local/bin:/Applications:/Users/chris/bin:"
+export PATH="/bin:/usr/local/bin:/Applications:/Users/chris/bin:$PATH"
 
 # Prompt
 COLOR1="\[\033[0;36m\]"
@@ -35,4 +35,4 @@ export NNTPSERVER
 export CLICOLOR=1;
 
 # set the editor
-export EDITOR="mvim"
+export EDITOR="bbedit"
