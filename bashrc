@@ -4,7 +4,7 @@ export PATH="/bin:/usr/local/bin:/Applications:/Users/chris/bin:$PATH"
 COLOR1="\[\033[0;36m\]"
 COLOR2="\[\033[0;32m\]"
 COLOR3="\[\033[0;36m\]"
-COLOR4="\[\033[1;37m\]"
+COLOR4="\[\033[m\]"
 
 if [ "$UID" = "0" ];
 then
@@ -19,7 +19,7 @@ DISPLAY="0:0";
 export DISPLAY
 
 #make directory colors brighter
-#LS_COLORS='di=01;33'; export LS_COLORS
+LS_COLORS='di=01;33'; export LS_COLORS
 
 # enable colors for ls
 alias ls='ls -G'
