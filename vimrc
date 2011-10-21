@@ -1,7 +1,7 @@
 set nocompatible                  " Must be first
 
 " enable pathogen plug-in management
-silent! call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 
 syntax enable                     " Turn on syntax highlighting
 filetype plugin indent on         " Turn on file type detection
@@ -30,9 +30,11 @@ set expandtab                     " use spaces instead of tabs
 " toggle wrapping with \w
 nmap <leader>w :set wrap!<CR>
 
+let g:solarized_termtrans=1
 colorscheme solarized
+set background=dark
 " set F5 to toggle between light and dark backgrounds
-call togglebg#map("<F5>")
+"call togglebg#map("<F5>")
 
 " toggle spell check
 nmap <leader>s :set spell!<CR>
