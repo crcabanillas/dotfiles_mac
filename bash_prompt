@@ -1,0 +1,18 @@
+# Prompt
+COLOR1="\[\033[1;36m\]"
+COLOR2="\[\033[0;32m\]"
+COLOR3="\[\033[1;36m\]"
+COLOR4="\[\033[m\]"
+
+if [ "$UID" = "0" ];
+then
+# I am root
+COLOR2="\[\033[1;31m\]"
+fi
+
+# Colorize the Terminal
+export CLICOLOR=1;
+LSCOLORS=dxfxcxdxbxegedabagacad
+export LSCOLORS
+
+PS1="$COLOR2($COLOR3\u@\h$COLOR2:$COLOR1\W$COLOR2)$COLOR1\\$ $COLOR4"
