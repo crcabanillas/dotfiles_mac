@@ -1,2 +1,4 @@
-alias la='ls -aF'
+alias ls='ls -F'
+alias la='ls -a'
+alias ll='ls -al'
 alias md='mkdir'
