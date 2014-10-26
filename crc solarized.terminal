@@ -52,7 +52,7 @@
 	<key>ShowActiveProcessInTitle</key>
 	<true/>
 	<key>ShowDimensionsInTitle</key>
-	<false/>
+	<true/>
 	<key>ShowShellCommandInTitle</key>
 	<false/>
 	<key>ShowWindowSettingsNameInTitle</key>
@@ -153,6 +153,10 @@
 	BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISECE5TT2JqZWN0AIWEAWMBhARm
 	ZmZmg6i7UT+DUATePYMl2hA+AYY=
 	</data>
+	<key>rowCount</key>
+	<integer>20</integer>
+	<key>shellExitAction</key>
+	<integer>0</integer>
 	<key>type</key>
 	<string>Window Settings</string>
 	<key>whiteColour</key>
